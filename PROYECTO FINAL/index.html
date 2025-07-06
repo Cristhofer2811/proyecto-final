@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Sumérgete en el sonido único de Harmony Heights. Explora nuestra historia, conoce a la banda y déjate llevar por la energía de nuestras composiciones de rock originales.">
+    <title>Harmony Heights</title>
+
+    
+    <style>
+
+        body {
+
+            padding: 100px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse; /*elimina los espacios entre bordes*/
+        }
+
+        th, td {
+            border: 1px solid#ddd; /*bordes*/
+            padding: 8px; /*espacio internos*/
+            text-align:1eft ; /*alineacion del texto*/
+
+        }
+
+        th {
+            background-color: #f3f7f5;/*color de fondo para los encabezados*/
+            color: black;/* color del texto en los encabezados*/
+        }
+
+        tr:nth-child(even) {
+            background-color: #c8e6cd;/*filas  impares, con color distinto*/
+
+        }
+
+        tr:hover {
+            background-color: #ddd; /*efector hover al pasar sobre las filas*/
+        }
+
+        caption {
+            caption-side: top;/*posicion del caption*/
+            font-size: 1.5em ;/*Tamaño de la fuente*/
+            font-weight: bold;/*texto negrita*/
+            text-align: center;/*centrar el texto*/
+            padding: 10px;/*espacio al redor del texto*/
+            color: #111111;/*color del texto*/
+            background-color: #58a870; /*color del fondo*/ 
+            border-bottom: 2px solid #ddd; /*Linea debajo del caption*/
+        }
+
+        img {
+            width: 500px;
+            align-content: first baseline;
+            border-radius: 10px;
+        }
+
+      
+      
+    </style>
+
+</head>
+<body>
+         <h1>Harmony Heights</h1>
+
+            <h3>Jeremi - Guitarra Principal</h3>
+            <img src="media/img/miembro1-jeremi.png" alt="Jeremi, guitarrista principal de la banda">
+           
+            <h3>Pablo - Batería</h3>
+            <img src="media/img/miembro2-pablo.png" alt="Pablo, baterista de la banda">
+            
+            <h3>Fer - Bajo</h3>
+            <img src="media/img/imagen3-fer.png" alt="Fer, bajista de la banda">       
+    <br>
+    <br>
+    <hr>
+    <br>
+    <br>
+
+    <h2>Musica reciente</h2>
+
+    <br>
+        
+        <p><em>Rock nice</em></p>
+        <audio src="media/audio/audio3.mp3" controls></audio>
+
+        <br>
+        
+        <p><em>Avalible</em></p>
+        <audio src="media/audio/audio2.mp3" controls></audio>
+
+        <br>
+        
+        <p><em>Life</em></p>
+        <audio 
+                autoplay
+                controls>
+                <source src="media/audio/audiooriginal.mp3" type="audio/mp3">
+                <source src="media/audio/audioalternativo.ogg" type="Audio/ogg">
+        </audio>
+
+           <br>
+           <br>
+           <hr>
+
+           <p>Un aperitivo de lo que se vera este <strong>15 de julio </strong> en <strong>La Sala del Rock</strong>, Ciudad  Vrillante.</p>
+
+     <br>
+     <br>
+
+     <video 
+                 controls 
+                 poster="media/img/imagen-portada.png"
+                 width="700px"
+                 sizes="(max-width:400px) 100vw,
+                 (max-width:800px) 50vw, 
+                  25vw">
+
+                 <source src="media/video/videooriginal.mp4" type="video/mp4">
+                 <source src="media/video/videoalternativo.webm" type="video/webm">
+     ></video>
+
+   <h2>Próximas Fechas de Gira</h2>
+
+    <p>¡No te pierdas a la banda en vivo! Aquí nuestras próximas fechas:</p>
+
+    <table>
+        <caption>
+            Detalles 
+        </caption>
+        <tr>
+            <th>
+                Fechas
+            </th>
+            <th>
+                Lugares
+            </th>
+        </tr>
+        <tr>
+            <td>15 de Julio de 2025</td>
+            <td> Ciudad Vibrante, Sala El Rock</td>
+        </tr>
+        <tr>
+            <td>28 de Julio de 2025</td>
+            <td> Pueblo Rítmico, Bar La Melodía</td>
+        </tr>
+        <tr>
+            <td>10 de Agosto de 2025</td>
+            <td> Metrópolis Sonora, Estadio Principal</td>
+        </tr>
+        <tr>
+            <td>30 de Agosto de 2025</td>
+            <td>Santiago, Estadio Ramirez</td>
+        </tr>
+        <tr>
+            <td colspan="2"><strong>Compra las boletas <a href="enlace-externo.html" target="_blank">aqui</a></strong></td>
+        </tr>
+        
+    </table>
+
+    
+        
+   <center>
+
+        <p>¡Esperamos verte en nuestros shows!</p>
+
+   </center>
+ 
+    <hr>
+
+    <h2>Redes Sociales</h2>
+
+    <p>Síguenos en nuestras redes sociales para estar al tanto de las últimas noticias y eventos:</p>
+
+    <ul>
+        <li><a href="enlace-externo.html" target="_blank">Facebook</a></li>
+        <li><a href="enlace-externo.html" target="_blank">Instagram</a></li>
+        <li><a href="enlace-externo.html" target="_blank">YouTube</a></li>
+    </ul>
+
+    <p>¡Gracias por tu apoyo!</p>
+
+    <hr>
+
+    <form action="sumit-form.php" method="post">
+
+        <fieldset>
+            
+            <br>
+            <legend>Informacion de contacto</legend>
+
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" required>
+
+            <br>
+            <br>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" required>
+
+            <br>
+
+            <h3>Mensaje</h3>
+
+            <textarea 
+
+                  name="message" 
+                  id="message"
+                  rows="4" 
+                  cols="50"
+                  placeholder="Comienza a escribir...">
+                  
+           
+            </textarea>
+             
+            <br>
+            <br>
+
+            <button type="submit">Enviar</button>
+            <button type="reset">Restablecer</button>
+
+
+        </fieldset>
+    </form>
+    
+</body>
+</html>
